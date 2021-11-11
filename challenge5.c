@@ -7,8 +7,8 @@ int main(){
 	c=(fh-32)/1.8;
 	printf("la temperature en Celsius %f\n",c);
 	if(c<0)
-	printf("tres froid");
+	printf(" la sensation ressentie est  tres froid");
 	else
-		printf("tres chaud");
+		printf("la sensation ressentie est tres chaud");
 		return 0;
 }
