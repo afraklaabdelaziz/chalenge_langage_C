@@ -1,11 +1,20 @@
 #include<stdio.h>
 int main() {
-	int z,r;
+	int z,r,a,b;
 	printf("donner un nomber contient 3 entier");
-	scanf("%d",&z);
-	r=(r*10)+(z%10);
-	r/10;
-	r=(r*10)+(z%10);
-	printf("l'inverse d'entier est %d",r);
-	return 0;
+	scanf("%d",&r);
+	z=0;
+	a=0;
+	b=0;
+    z=z+r%10;
+    r=r/10;
+    a=a+r%10;
+    r=r/10;
+    b=b+r%10;
+    
+    
+   
+    
+    
+    printf("%d%d%d",z,a,b);
 }
