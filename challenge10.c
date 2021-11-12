@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-	float pi=3.14;
+	const double pi=3.14;
 	float r,C;
 	printf("donner le rayon de cercle\n");
 	scanf("%f",&r);
